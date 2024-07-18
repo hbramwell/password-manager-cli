@@ -1,0 +1,23 @@
+{
+  "name": "password-manager",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "bun run --target=node src/index.ts",
+    "build": "bun build src/index.ts --outdir dist --target node "
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/uuid": "^10.0.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "inquirer": "^10.0.3",
+    "uuid": "^10.0.0"
+  }
+}
