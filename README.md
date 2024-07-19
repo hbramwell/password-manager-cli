@@ -32,7 +32,7 @@ Since the project is in progress, there isn't a formal release yet. Here's a tem
 2. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/password-manager-cli.git
+   git clone https://github.com/horacebramwell/password-manager-cli.git
    cd password-manager-cli
    ```
 
